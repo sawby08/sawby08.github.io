@@ -1,16 +1,16 @@
-@font-face {
-    font-family: 'fomt';
-    src: url('/fonts/helvetica-255/5.ttf') format('truetype');
-}  
 body {
   background-color: #30141C;
+  font-family: Helvetica;
 }
 a {
   color: #CEBE72;
+  font-family: Helvetica;
 }
 p {
   color: #CE8772;
+  font-family: Helvetica;
 }
 h1 {
   color: #CE8772;
+  font-family: Helvetica;
 }
