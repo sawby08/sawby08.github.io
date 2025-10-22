@@ -1,9 +1,16 @@
+@font-face {
+    font-family: 'fomt';
+    src: url('/fonts/helvetica-255/7.otf') format('opentype');
+}  
 body {
-  background-color: #0B0A15;
+  background-color: #30141C;
 }
 a {
-  color: #67CF6D;
+  color: #CEBE72;
 }
 p {
-  color: #ABDCE0;
+  color: #CE8772;
+}
+h1 {
+  color: #CE8772;
 }
