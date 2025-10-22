@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'fomt';
-    src: url('/fonts/helvetica-255/7.otf') format('opentype');
+    src: url('/fonts/helvetica-255/5.ttf') format('truetype');
 }  
 body {
   background-color: #30141C;
