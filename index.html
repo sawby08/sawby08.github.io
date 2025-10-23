@@ -2,31 +2,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <style> 
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #0F0A08;
+        }
+
+        #main {
+            border-radius: 67px;
+            background-color: #25120D;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            width: 800px;
+            height: 600px;
+            text-align: center;
+            font-family: "helvetica-lt-pro", sans-serif;
+        }
+
+        #main h1 {
+            font-size: 48px;
+            color: #FFFFFF;
+            margin-bottom: 30px;
+        }
+
+        .profile {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            background-color: #E0BA5C;
+            justify-content: flex-start;
+        }
+
+        .profile img {
+            width: 273px;
+            height: 273px;
+            flex-shrink: 0;
+        }
+
+        .profile p {
+            font-size: 36px;
+            color: #000000;
+            text-align: left;
+        }
+    </style>
     <title>sawby site</title>
 </head>
 <body>
-    <header>
-        <h1>sawby's spectacular site</h1>
-    </header>
-
     <main>
-        <h2>hello!</h2>
-        <p>my name sawby. i do the</p>
+        <div id="main">
+            <h1>Welcome!</h1>
 
-        <h3>site subpages</h3>
-        <a href="portfolio/">my portfolio</a> <br>
-        <a href="about me/">about me</a> <br> <br>
-
-        <h3>harass me on these platforms</h3>
-        <a href="https://youtube.com/@sawby08">youtube (i put my animations up on here)</a> <br>
-        <a href="https://github.com/sawby08">github (i put my programming projects on here)</a> <br>
-        <a href="https://x.com/sawby08">twitter (i just use it to look for jobs or to be nice to people) </a> <br>
+            <div class="profile">
+                <img src="assets/me.gif" alt="me">
+                <p>Braden L. (Sawby) <br> <br> Freelance Animator <br> Funtime Programmer</p>
+            </div>
+        </div>
     </main>
-
-    <footer>
-        <p>thanks to my friend trinity (planetdaikatana.net) for helping me go through the process of buying the site and setting it up. goated for that</p>
-        <p>this website was JUST made (oct 21, 2025), so it's incredibly unfinished. hopefully in the upcoming weeks it will have a significantly cooler layout</p>
-    </footer>
 </body>
 </html>
