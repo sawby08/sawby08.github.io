@@ -1,66 +1,112 @@
 <html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style> 
-        body {
-            margin: 0;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: #0F0A08;
-        }
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style> 
+            body {
+                margin: 0;
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #0F0A08;
+            }
 
-        #main {
-            border-radius: 67px;
-            background-color: #25120D;
-            padding-top: 20px;
-            padding-bottom: 20px;
-            width: 800px;
-            height: 600px;
-            text-align: center;
-            font-family: "helvetica-lt-pro", sans-serif;
-        }
+            #main {
+                border-radius: 67px;
+                background-color: #25120D;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                width: 800px;
+                height: 600px;
+                text-align: center;
+            }
 
-        #main h1 {
-            font-size: 48px;
-            color: #FFFFFF;
-            margin-bottom: 30px;
-        }
+            #main h1 {
+                font-size: 48px;
+                color: #FFFFFF;
+                margin-bottom: 30px;
+                font-family: "helvetica-lt-pro", sans-serif;
+                font-weight: 700;
+                font-style: normal;
+            }
 
-        .profile {
-            display: flex;
-            align-items: center;
-            gap: 20px;
-            background-color: #E0BA5C;
-            justify-content: flex-start;
-        }
+            #main h2 {
+                font-size: 48px;
+                color: #E0BA5C;
+                margin: 60px;
+            }
 
-        .profile img {
-            width: 273px;
-            height: 273px;
-            flex-shrink: 0;
-        }
+            .profile {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                background-color: #E0BA5C;
+                justify-content: flex-start;
+            }
 
-        .profile p {
-            font-size: 36px;
-            color: #000000;
-            text-align: left;
-        }
-    </style>
-    <title>sawby site</title>
-</head>
-<body>
-    <main>
-        <div id="main">
-            <h1>Welcome!</h1>
+            .profile img {
+                width: 273px;
+                height: 273px;
+                flex-shrink: 0;
+            }
 
-            <div class="profile">
-                <img src="assets/me.gif" alt="me">
-                <p>Braden L. (Sawby) <br> <br> Freelance Animator <br> Funtime Programmer</p>
+            .profile p {
+                font-size: 36px;
+                color: #25120D;
+                text-align: left;
+                font-family: "helvetica-lt-pro", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+            }
+
+            .socials a {
+                color: #E0BA5C;
+            }
+
+            .socials p {
+                font-size: 48px;
+                color: #E0BA5C;
+                font-family: "helvetica-lt-pro", sans-serif;
+                font-weight: 700;
+                font-style: normal;
+            }
+
+            .pages p {
+                font-size: 24px;
+                word-spacing: 24px;
+                font-family: "helvetica-lt-pro", sans-serif;
+                font-weight: 300;
+                font-style: normal;
+            }
+
+            .pages a {
+                color: #826634;
+                text-decoration: none;
+            }
+        </style>
+
+        <title>Sawby's Stupendously Spectatular Site</title>
+    </head>
+
+    <body>
+        <main>
+            <div id="main">
+                <h1>Welcome!</h1>
+
+                <div class="profile">
+                    <img src="assets/me.gif" alt="me">
+                    <p>Braden L. (Sawby) <br> <br> Freelance Animator <br> Funtime Programmer</p>
+                </div>
+
+                <div class="socials">
+                    <p><a href="https://youtube.com/@sawby08">YouTube</a> • <a href="https://x.com/sawby08">Twitter</a> • <a href="https://github.com/sawby08">GitHub</a></p>
+                </div>
+
+                <div class="pages">
+                    <p><a href="/">main</a>  <a href="/">contact</a>  <a href="/">portfolio</a>  <a href="/">braden</a></p>
+                </div>
             </div>
-        </div>
-    </main>
-</body>
+        </main>
+    </body>
 </html>
