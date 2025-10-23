@@ -1,5 +1,7 @@
 # [sawby.info](https://sawby.info) (sawby08.github.io)
 
-<p>just a personal website for me to mess around in. by no means am i a web developer but i needed something other than google drive to put my animation portfolio on without having to use a website maker</p>
+<p>silly repo for my silly website. mainly for my animation portfolio but it's also just my do-anything-site if i desire to do anything more with it at some point!</p>
 
-<p>site is unfinished. subpages might not exist but i'm working on them i swear</p>
+<p>as of right now the site isn't finished. some pages don't have any content in them and i still need to fix some bugs 🥹</p>
+
+<p>additionally i MUST preface that i am not a web developer. if you see any gross coding methods on my part then just blame w3schools and stack overflow i code video games not websites</p>
