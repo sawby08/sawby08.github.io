@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000010;
+}
+
+#main {
+    border-radius: 67px;
+    background-color: #000033;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 800px;
+    height: 600px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#main h1 {
+    font-size: 48px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    font-family: "helvetica-lt-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#main h2 {
+    font-size: 48px;
+    color: #E0BA5C;
+    margin: 60px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #DE7DCD;
+    justify-content: flex-start;
+}
+
+.profile img {
+    width: 273px;
+    height: 273px;
+    flex-shrink: 0;
+}
+
+.profile p {
+    font-size: 36px;
+    color: #000033;
+    text-align: left;
+    font-family: "helvetica-lt-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.socials a {
+    color: #DE7DCD;
+}
+
+.socials p {
+    font-size: 42px;
+    color: #DE7DCD;
+    font-family: "helvetica-lt-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.pages {
+    margin-top: auto;
+}
+
+.pages p {
+    font-size: 24px;
+    word-spacing: 24px;
+    font-family: "helvetica-lt-pro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.pages a {
+    color: #6F3E7F;
+    text-decoration: none;
+}
