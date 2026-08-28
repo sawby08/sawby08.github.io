@@ -4,12 +4,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #000010;
+    background-color: #1A0F2A;
 }
 
 #main {
     border-radius: 67px;
-    background-color: #000033;
+    background-color: #27154D;
     padding-top: 20px;
     padding-bottom: 20px;
     width: 800px;
@@ -38,7 +38,7 @@ body {
     display: flex;
     align-items: center;
     gap: 20px;
-    background-color: #000033;
+    background-color: #27154D;
     justify-content: flex-start;
 }
 
@@ -50,7 +50,7 @@ body {
 
 .profile p {
     font-size: 32px;
-    color: #DE7DCD;
+    color: #EE68ED;
     text-align: center;
     font-family: "helvetica-lt-pro", sans-serif;
     font-weight: 400;
@@ -83,6 +83,6 @@ body {
 }
 
 .pages a {
-    color: #6F3E7F;
+    color: #9A42A3;
     text-decoration: none;
 }

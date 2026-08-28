@@ -4,12 +4,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #000010;
+    background-color: #1A0F2A;
 }
 
 #main {
     border-radius: 67px;
-    background-color: #000033;
+    background-color: #27154D;
     padding-top: 20px;
     padding-bottom: 20px;
     width: 800px;
@@ -48,7 +48,7 @@ body {
 
 .profile p {
     font-size: 24px;
-    color: #DE7DCD;
+    color: #EE68ED;
     text-align: center;
     font-family: "helvetica-lt-pro", sans-serif;
     font-weight: 400;
@@ -57,8 +57,12 @@ body {
     padding-right: 20px;
 }
 
+.profile a {
+    color: #EE68ED;
+}
+
 .socials a {
-    color: #DE7DCD;
+    color: #EE68ED;
 }
 
 .socials p {
@@ -82,7 +86,7 @@ body {
 }
 
 .pages a {
-    color: #6F3E7F;
+    color: #9A42A3;
     text-decoration: none;
 }
 
