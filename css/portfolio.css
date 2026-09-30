@@ -12,8 +12,8 @@ body {
     background-color: #27154D;
     padding-top: 20px;
     padding-bottom: 20px;
-    width: 800px;
-    height: 600px;
+    width: 1000px;
+    height: 800px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -62,6 +62,7 @@ body {
 }
 
 .socials a {
+    font-size: 46px;
     color: #EE68ED;
 }
 
